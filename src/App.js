@@ -1,12 +1,18 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Intro from './components/Intro';
 import Header from './components/Header';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import styles from './styles.module.css';
 
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <div className={styles.background}>
       <Header/>
+      <Intro/>
+      <Projects/>
+      <Footer/>
     </div>
   );
 }

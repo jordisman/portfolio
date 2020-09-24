@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  /* page white frame */
+  padding: 4rem;
   font-family: "Helvetica", serif;
 }
 
@@ -7,11 +9,15 @@ link {
   color: white;
 }
 
+.background {
+  background-color: #f7f7f7;
+}
+
 /* ========== Header ========== */
 
 .headerContainer {
   margin: 0;
-  height: 100vh;
+  height: 90vh;
   background-image: linear-gradient(to right bottom,
       rgba(126, 213, 111, 0.712), rgba(40, 180, 131, 0.8)),
     url(./images/mountain-switzerland.jpg);
@@ -23,7 +29,7 @@ link {
 
 .titleBox {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -37,14 +43,14 @@ link {
 }
 
 .titleMain {
-  font-size: 75px;
-  letter-spacing: 19px;
+  font-size: 70px;
+  letter-spacing: 10px;
 }
 
 .titleSub {
-  font-size: 22px;
-  font-weight: 100;
-  line-height: 1em;
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 0.8em;
 }
 
 .icon {
@@ -82,58 +88,24 @@ link {
   /* border: 1px solid blue; */
 }
 
-.signUp {
-  border: 1px solid rgba(255, 0, 0, 0.404);
-  text-align: center;
-  height: 22px;
-  width: 100px;
-  padding-top: 5px;
+/* ========== Intro ========== */
+
+.introContainer {
+  /* border: 1px solid red; */
 }
 
-
-
-/* ========== Search ========== */
-
-.searchBar {
-  margin-top: 90%;
-  width: 500px;
-  /* border: 1px solid blue; */
-}
-
-.searchBtn {
-  border: 0;
-  padding: 12px 26px;
-  margin-top: 10px;
-  border-radius: 100px;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  font-size: 15px;
-  background-color: white;
-  color: #777;
-  font-weight: 100;
-  outline: none;
-  /* box-shadow: 2px 2px 8px #afaeae; */
-}
-
-.searchBtn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-}
-
-input {
-  color: white;
-  background-color: transparent;
-  outline: none;
-  border: 0;
-  border-bottom: solid 2.5px rgba(255, 0, 0, 0.404);
-  width: 70%;
-  padding: 0 0 10px 20px;
-  margin: 0 20px 30px 0;
+.intro {
+  width: 55%;
+  height: 300px;
+  margin: auto;
+  padding: 15% 0;
+  /* margin: 80px 0 50px 0; */
+  text-align: justify;
   font-size: 20px;
-}
-
-input::-webkit-input-placeholder {
-  font-size: 16px;
+  font-weight: 100;
+  color: rgb(68, 67, 67);
+  line-height: 1.5em;
+  /* border: 1px solid blue; */
 }
 
 /* ========== Display ======== */
@@ -167,4 +139,36 @@ input::-webkit-input-placeholder {
 .rowTitle {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
+}
+
+
+
+/* =============== projects ================ */
+
+
+.sectionFeatures {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom,
+  rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),
+  url(./images/nat-6.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+}
+
+/* .section-features>* {
+  transform: skewY(7deg);
+} */
+
+/* @media only screen and (max-width: 56.25em) {
+  .section-features {
+    padding: 10rem 0;
+  }
+} */
+
+
+/* ==================== Footer ================== */
+
+.footerContainer {
+  height: 300px;
 }
