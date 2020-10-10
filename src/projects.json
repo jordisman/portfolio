@@ -1,12 +1,29 @@
 [
   {
     "Project": "Deepfryd",
-    "Intro": "Fullstack customer comments & rating component replica of an electronic e-commerce website frys.com",
+    "Intro": "A dynamic e-commerce product page for users to search for products info, availability and reviews. Fullstack customer comments & rating component replica of an electronic e-commerce website frys.com",
     "Link": "https://github.com/hrr37-team-bender/jordisman-service"
   },
   {
     "Project": "Bookshelf",
-    "Intro": "Rebuilt the backend of the extra details component of goodreads.com",
+    "Intro": "A social cataloging application for book lovers to search a database of books, annotations, and reviews. Rebuilt the backend of the extra details component of goodreads.com",
     "Link": "https://github.com/hrr37-sdc-team-hopper/Jordis-Book-Extra-Info"
+  },
+  {
+    "Project": "Weather Forecaster",
+    "Intro": "A classic weather forecast application for users to check weather information for any city"
+  },
+  {
+    "Project": "Test Line COVID-19",
+    "Intro": "An web application for COVID-19 test providers enter their information and enter a dashboard to: see other nearby providers to get information on their status, easily update their own status for other providers to see, and communicate about sharing testing materials and resources: kits, samples, reagents, vials etc.",
+    "Link": "https://devpost.com/software/covid-19-testline"
+  },
+  {
+    "Project": "Women To Work",
+    "Intro": "A platform to support career seeking women during the crisis of COVID-19"
+  },
+  {
+    "Project": "Jubilee",
+    "Intro": "A lyrics searching web application that the user can type in the lyrics they're thinking about and get songs with lyrics that hold similar meanings to what they typed."
   }
 ]

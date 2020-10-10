@@ -92,6 +92,7 @@ link {
 
 .introContainer {
   /* border: 1px solid red; */
+  height: 600px;
 }
 
 .intro {
@@ -142,29 +143,37 @@ link {
 }
 
 
-
 /* =============== projects ================ */
 
 /* projects background */
-.sectionFeatures {
+
+.projectsContainer {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom,
   rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),
   url(./images/nat-6.jpg);
   background-size: cover;
-  transform: skewY(-7deg);
+  clip-path: polygon(0 15vh, 100% 0, 100% 95vh, 0 100%);
   margin-top: -10rem;
+  color: white;
 }
 
-/* .section-features>* {
-  transform: skewY(7deg);
-} */
+.projectWrap {
+  width: 80%;
+  margin: 0 0 0 100px;
+}
 
-/* @media only screen and (max-width: 56.25em) {
-  .section-features {
-    padding: 10rem 0;
-  }
-} */
+.projectTitle {
+  font-size: 18px;
+  font-style: bold;
+
+}
+
+.project {
+  margin: 10px;
+}
+
+
 
 
 /* ==================== Footer ================== */
