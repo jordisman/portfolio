@@ -153,14 +153,22 @@ link {
   rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),
   url(./images/nat-6.jpg);
   background-size: cover;
-  clip-path: polygon(0 15vh, 100% 0, 100% 95vh, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 165vh, 0 100%);
   margin-top: -10rem;
-  color: white;
+
+
 }
 
 .projectWrap {
-  width: 80%;
-  margin: 0 0 0 100px;
+  width: 60%;
+  margin: 10px auto;
+  /* color: white; */
+  color: black;
+  background-color: rgb(243, 247, 242);
+  opacity: 0.5;
+  padding: 15px 25px;
+  border-radius: 5px;
+  /* border: 1px solid red; */
 }
 
 .projectTitle {
