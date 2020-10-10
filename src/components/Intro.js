@@ -6,7 +6,7 @@ import nat3 from '../images/nat-3.jpg';
 
 const Intro = () => {
   // workaround for the Apostrophe breaking syntax hightlight
-  const text = "I'm a full-stack software engineer experienced with Javascript, HTML5, CSS3, React, Node.js, Express, MongoDB, MySQL, PostgreSQL, etc. and I always love to learn new technologies. I enjoy creating and collaborating with others making full stack applications.";
+  const text = "I'm a full-stack software engineer experienced with Javascript, HTML5, CSS3, React, Node.js, Express, MongoDB, MySQL, PostgreSQL, etc. and I always love to learn new technologies. I enjoy creating and collaborating with others making full stack web applications.";
 
   return (
   <div className={styles.introContainer}>

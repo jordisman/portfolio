@@ -21,6 +21,8 @@ class Projects extends React.Component {
             <div className={styles.projectWrap}>
               <h3 className={styles.projectTitle}>{item["Project"]}</h3>
               <p className={styles.project}>{item["Intro"]}</p>
+              <a href={item["Github"]}>Github</a> <br/>
+
             </div>
           )
         })}
