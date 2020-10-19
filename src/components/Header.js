@@ -6,7 +6,7 @@ function Header() {
   return (
 
       <div className={styles.headerContainer}>
-        // <Navbar />
+
         <div className={styles.titleBox}>
           <h1 className={styles.title}>
             <span className={styles.titleMain}>Jordis Man</span>
