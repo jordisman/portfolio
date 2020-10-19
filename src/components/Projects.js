@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles.module.css';
 import data from '../projects.json';
+import git from '../images/Git.png';
 
 
 class Projects extends React.Component {
@@ -20,6 +21,7 @@ class Projects extends React.Component {
           return (
             <div className={styles.projectWrap}>
               <h3 className={styles.projectTitle}>{item["Project"]}</h3>
+              <img />
               <p className={styles.project}>{item["Intro"]}</p>
               <a href={item["Github"]}>Github</a> <br/>
 
